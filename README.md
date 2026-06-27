@@ -1,106 +1,88 @@
 # Dental Management System
 
-A robust, user-centric Dental Management System designed to streamline operations for dental clinics. This system improves communication and coordination between dentists, clinic staff, and patients by providing efficient appointment scheduling, patient record management, billing, and administrative workflows.
+A user-centered Dental Management System designed to streamline clinic operations by improving appointment scheduling, patient record management, billing processes, and communication between dentists, staff, and patients.
+
+The system aims to provide an organized and efficient workflow for dental clinics through digital tools that support better patient care and administrative management.
 
 ---
 
 ## 🚀 Features
 
 ### 📅 Appointment Scheduling
-
-- Dynamic calendar system for booking, rescheduling, and cancelling appointments.
-- Organized scheduling workflow between dentists, clinic staff, and patients.
-- Appointment reminders and notifications for upcoming dental visits.
+- Dynamic appointment calendar for booking, rescheduling, and cancellation.
+- Organized scheduling workflow for dentists, clinic staff, and patients.
+- Appointment reminders and notifications for upcoming visits.
 
 ### 👥 Patient Management
-
 - Digital patient records containing:
   - Patient information
   - Dental history
   - Treatment plans
   - Clinical notes
+- Easy access to patient information for improved service and tracking.
 
-- Easy access and management of patient information.
-- Improved tracking of patient care and treatment progress.
-
-### 💼 Administrative & Staff Tools
-
+### 💼 Administrative Tools
 - Role-based access control for different users:
-  - Dentist
+  - Dentists
   - Clinic Staff
-  - Administrator
-
+  - Administrators
 - Billing and invoicing management.
 - Treatment and payment status tracking.
-- Organized clinic workflow management.
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-## Frontend
-- React / Flutter *(replace with your actual technology)*
+### Frontend
+- Flutter
 
-## Backend
-- Node.js / Python / Dart *(replace with your actual technology)*
+### Backend
+- Dart
 
-## Database
-- PostgreSQL / Firebase / MongoDB *(replace with your actual database)*
-
-## Design
+### Design
 - Figma
 
 ---
 
-# 📦 Getting Started
+## 📦 Getting Started
 
-Follow these instructions to set up and run the project locally.
+Follow these steps to run the project locally.
 
-## Prerequisites
+### Prerequisites
 
-Before starting, make sure you have installed:
+Make sure you have installed:
 
 - Git
-- Visual Studio Code
-- Node.js (if using Node.js)
-- Flutter SDK (if using Flutter)
-- Required development tools for your chosen stack
+- Visual Studio Code (or your preferred IDE)
+- Flutter SDK
 
 ---
 
-# Installation
+## 💻 Installation
 
-## 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/missdott/Dental-System.git
-Navigate into the project folder:
+git clone [https://github.com/missdott/Dental-System.git](https://github.com/missdott/Dental-System.git)
 
+Go into the project folder:
+
+```bash
 cd Dental-System
-2. Install Dependencies
 
-If using Node.js:
-
-npm install
-
-If using Flutter:
-
+### 2. Install dependencies
+```bash
 flutter pub get
-3. Environment Configuration
 
-Create a .env file in the root folder:
-
+### 3. Environment Setup
+Create a .env file in the project root:
+```bash
+Code snippet
 API_BASE_URL=your_api_url_here
-DATABASE_URL=your_database_connection_here
+DB_CONNECTION_STRING=your_database_connection_here
+Add the required environment variables based on your setup.
 
-Replace the values with your actual configuration.
+### 4. Run the Application
 
-4. Run the Application
-
-For Node.js:
-
-npm start
-
-For Flutter:
-
+```bash
 flutter run
