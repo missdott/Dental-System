@@ -143,7 +143,7 @@ Make sure you have installed:
 # 1. Clone the Repository
 
 ```bash
-git clone https://github.com/missdott/Dental-System.git
+git clone https://github.com/your-username/Dental-System.git
 ```
 
 Navigate to the project folder:
