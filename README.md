@@ -1,95 +1,106 @@
 # Dental Management System
 
-A user-centered Dental Management System designed to streamline clinic operations by improving appointment scheduling, patient record management, billing processes, and communication between dentists, staff, and patients.
-
-The system aims to provide an organized and efficient workflow for dental clinics through digital tools that support better patient care and administrative management.
+A robust, user-centric Dental Management System designed to streamline operations for dental clinics. This system improves communication and coordination between dentists, clinic staff, and patients by providing efficient appointment scheduling, patient record management, billing, and administrative workflows.
 
 ---
 
 ## 🚀 Features
 
 ### 📅 Appointment Scheduling
-- Dynamic appointment calendar for booking, rescheduling, and cancellation.
-- Organized scheduling workflow for dentists, clinic staff, and patients.
-- Appointment reminders and notifications for upcoming visits.
+
+- Dynamic calendar system for booking, rescheduling, and cancelling appointments.
+- Organized scheduling workflow between dentists, clinic staff, and patients.
+- Appointment reminders and notifications for upcoming dental visits.
 
 ### 👥 Patient Management
+
 - Digital patient records containing:
   - Patient information
   - Dental history
   - Treatment plans
   - Clinical notes
-- Easy access to patient information for improved service and tracking.
 
-### 💼 Administrative Tools
+- Easy access and management of patient information.
+- Improved tracking of patient care and treatment progress.
+
+### 💼 Administrative & Staff Tools
+
 - Role-based access control for different users:
-  - Dentists
+  - Dentist
   - Clinic Staff
-  - Administrators
+  - Administrator
+
 - Billing and invoicing management.
 - Treatment and payment status tracking.
+- Organized clinic workflow management.
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
-- React / Flutter *(update depending on your actual implementation)*
+## Frontend
+- React / Flutter *(replace with your actual technology)*
 
-### Backend
-- Node.js / Python / Dart *(update depending on your actual implementation)*
+## Backend
+- Node.js / Python / Dart *(replace with your actual technology)*
 
-### Database
-- PostgreSQL / Firebase / MongoDB *(update depending on your actual implementation)*
+## Database
+- PostgreSQL / Firebase / MongoDB *(replace with your actual database)*
 
-### Design
+## Design
 - Figma
 
 ---
 
-## 📦 Getting Started
+# 📦 Getting Started
 
-Follow these steps to run the project locally.
+Follow these instructions to set up and run the project locally.
 
 ## Prerequisites
 
-Make sure you have installed:
+Before starting, make sure you have installed:
 
 - Git
-- Visual Studio Code (or your preferred IDE)
-- Required development tools depending on the stack
-
-Example:
-
-- Node.js v18+
-- Flutter SDK
+- Visual Studio Code
+- Node.js (if using Node.js)
+- Flutter SDK (if using Flutter)
+- Required development tools for your chosen stack
 
 ---
 
-## Installation
+# Installation
 
-### 1. Clone the repository
+## 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/missdott/Dental-System.git](https://github.com/missdott/Dental-System.git)
+git clone https://github.com/missdott/Dental-System.git
+Navigate into the project folder:
 
-Go into the project folder:
 cd Dental-System
+2. Install Dependencies
 
-2. Install dependencies
-For Node.js projects:
+If using Node.js:
+
 npm install
-For Flutter projects:
-flutter pub get
 
-33. Environment Setup
-Create a .env file in the project root:
+If using Flutter:
+
+flutter pub get
+3. Environment Configuration
+
+Create a .env file in the root folder:
+
 API_BASE_URL=your_api_url_here
-DB_CONNECTION_STRING=your_database_connection_here
-Add the required environment variables based on your setup.
+DATABASE_URL=your_database_connection_here
+
+Replace the values with your actual configuration.
 
 4. Run the Application
+
 For Node.js:
+
 npm start
+
 For Flutter:
+
 flutter run
