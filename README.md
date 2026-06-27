@@ -6,27 +6,6 @@ The system helps manage appointments, patient records, authentication, clinic wo
 
 ---
 
-## 📂 Project Structure
-
-This system is divided into three primary directories:
-
-```
-Dental-System/
-│
-├── backend/
-│   ├── Node.js & Express API
-│   ├── MongoDB Database Integration
-│   └── Authentication Services
-│
-├── frontend/
-│   └── Patient / Customer Portal
-│
-├── admin/
-│   └── Clinic Staff & Doctor Dashboard
-│
-└── README.md
-```
-
 ### Backend
 
 `backend/`
