@@ -1,59 +1,131 @@
 # Dental Management System
 
-A comprehensive, multi-platform Dental Management System designed to streamline dental clinic operations. This project is structured as a monorepo containing a backend API, patient/customer portal, and administrative dashboard.
-
-The system helps manage appointments, patient records, authentication, clinic workflows, and administrative tasks efficiently.
+A comprehensive, multi-platform Dental Management System designed to streamline dental clinic operations. This project contains a patient portal, backend API, and administrative dashboard to improve appointment management, patient records, and clinic workflows.
 
 ---
 
-### Backend
+# 🖥️ Frontend
 
-`backend/`
+The frontend serves as the main user-facing application for patients/customers.
 
-- Node.js & Express API
-- MongoDB database integration
-- Authentication and API services
-- File upload management
+### Responsibilities
 
-### Frontend
+- Patient registration and authentication
+- Appointment scheduling and management
+- Viewing dental records and treatment information
+- User-friendly interface for clinic services
 
-`frontend/`
+### Technologies
 
-- Patient/customer-facing application
-- Appointment and user interaction features
+- React.js / Flutter *(update based on your implementation)*
 
-### Admin
+---
 
-`admin/`
+# ⚙️ Backend
 
+The backend provides the API services and handles the core system logic.
+
+### Responsibilities
+
+- API management
+- Database operations
+- Authentication and authorization
+- File upload handling
+- Communication between frontend and database
+
+### Technologies
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Additional Services
+
+- JWT Authentication
+- Multer for file uploads
+- Cloudinary for cloud storage
+
+---
+
+# 🛠️ Admin Dashboard
+
+The admin panel is designed for clinic staff and doctors to manage system operations.
+
+### Responsibilities
+
+- Manage patient information
+- Manage appointments
+- Monitor clinic activities
+- Handle administrative tasks
+- Control user access and permissions
+
+### Technologies
+
+- React.js / Flutter *(update based on your implementation)*
+
+---
+
+# 🚀 Features
+
+## 📅 Appointment Management
+
+- Create, update, and manage dental appointments
+- Appointment scheduling system
+- Track patient visits and schedules
+
+## 👥 Patient Management
+
+- Patient profiles
+- Dental history records
+- Treatment information management
+- Organized patient data storage
+
+## 🔐 Authentication & Security
+
+- Secure login system
+- JWT-based authentication
+- Protected routes
+- Role-based access control
+
+## 💼 Clinic Administration
+
+- Doctor and staff management
 - Administrative dashboard
-- Clinic staff and doctor management tools
+- Clinic workflow management
 
 ---
 
 # 🛠️ Tech Stack
 
-## Backend API
+## Frontend
 
-- **Runtime:** Node.js
-- **Framework:** Express.js
-- **Database:** MongoDB
-- **ODM:** Mongoose
-- **Authentication:** JSON Web Token (JWT)
-- **File Upload:** Multer
-- **Cloud Storage:** Cloudinary
+- React.js / Flutter
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Database
+
+- MongoDB
+- Mongoose
+
+## Authentication
+
+- JSON Web Token (JWT)
+
+## File Management
+
+- Multer
+- Cloudinary
 
 ---
 
-## Frontend & Admin
+# 📦 Local Installation & Setup
 
-- **Framework:** React.js / Flutter *(update based on your implementation)*
-
----
-
-# 📦 Getting Started
-
-Follow these steps to set up the project locally.
+Follow these steps to run the project locally.
 
 ---
 
@@ -63,20 +135,18 @@ Make sure you have installed:
 
 - Node.js (v18 or higher)
 - Git
-- MongoDB or MongoDB Atlas account
-- VS Code or preferred IDE
+- MongoDB or MongoDB Atlas
+- Visual Studio Code
 
 ---
 
-# 💻 Local Installation & Setup
-
-## 1. Clone the Repository
+# 1. Clone the Repository
 
 ```bash
 git clone https://github.com/missdott/Dental-System.git
 ```
 
-Navigate into the project:
+Navigate to the project folder:
 
 ```bash
 cd Dental-System
@@ -106,37 +176,31 @@ PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 
 CLOUDINARY_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
 
 JWT_SECRET=your_jwt_secret
 ```
 
-Start the backend server:
+Run the backend server:
 
 ```bash
 npm run dev
-```
-
-or:
-
-```bash
-node server.js
 ```
 
 ---
 
 # 3. Frontend Setup
 
-Open another terminal.
+Open a new terminal.
 
-Go back to the project root:
+Go back to the project folder:
 
 ```bash
 cd Dental-System
 ```
 
-Enter the frontend folder:
+Enter frontend folder:
 
 ```bash
 cd frontend
@@ -148,7 +212,7 @@ Install dependencies:
 npm install
 ```
 
-Run the frontend:
+Run frontend:
 
 ```bash
 npm start
@@ -156,11 +220,11 @@ npm start
 
 ---
 
-# 4. Admin Dashboard Setup
+# 4. Admin Setup
 
 Open another terminal.
 
-Go to the admin folder:
+Go to admin folder:
 
 ```bash
 cd Dental-System/admin
@@ -172,36 +236,8 @@ Install dependencies:
 npm install
 ```
 
-Run the admin dashboard:
+Run admin dashboard:
 
 ```bash
 npm start
 ```
-
----
-
-# 🚀 Features
-
-## Appointment Management
-
-- Create and manage dental appointments
-- Schedule tracking
-- Patient visit management
-
-## Patient Management
-
-- Patient profiles
-- Dental history records
-- Treatment information
-
-## Authentication
-
-- Secure login system
-- Role-based access control
-- Protected routes
-
-## Administration
-
-- Clinic management tools
-- Doctor and staff dashboard
-- Organized workflow management
