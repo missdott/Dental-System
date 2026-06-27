@@ -46,4 +46,30 @@ Ensure you have the following installed on your development environment:
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/missdott/Dental-System.git](https://github.com/missdott/Dental-System.git)
+   
    cd Dental-System
+
+2. Install Dependencies:
+   If using Flutter/Dart:
+   Bash
+      flutter pub get
+
+   If using Node/NPM:
+   Bash
+      npm install
+
+3. Environment Configuration:
+   Create a .env file in the root directory and add any necessary environment variables:
+
+   Code snippet
+      API_BASE_URL=your_api_url_here
+      DB_CONNECTION_STRING=your_db_string_here
+
+4. Run the Application:
+   If using Flutter:
+   Bash
+      flutter run
+   
+   If using Node/Web:
+   Bash
+      npm start
