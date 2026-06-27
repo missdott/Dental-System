@@ -70,12 +70,12 @@ Go into the project folder:
 cd Dental-System
 ```
 
-2. Install dependencies
+### 2. Install dependencies
 ```bash
 flutter pub get
 ```
 
-3. Environment Setup
+### 3. Environment Setup
 
 Create a .env file in the project root:
 ```bash
@@ -85,7 +85,7 @@ DB_CONNECTION_STRING=your_database_connection_here
 
 Add the required environment variables based on your setup.
 
-4. Run the Application
+### 4. Run the Application
 ```bash
 flutter run
 ```
