@@ -63,7 +63,7 @@ Make sure you have installed:
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/missdott/Dental-System.git](https://github.com/missdott/Dental-System.git)
+git clone [https://github.com/your-username/Dental-System.git]
 ```
 Go into the project folder:
 ```bash
