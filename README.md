@@ -50,6 +50,7 @@ Ensure you have the following installed on your development environment:
    cd Dental-System
 
 2. Install Dependencies:
+```bash
    If using Flutter/Dart:
    Bash
       flutter pub get
@@ -59,6 +60,7 @@ Ensure you have the following installed on your development environment:
       npm install
 
 3. Environment Configuration:
+```bash
    Create a .env file in the root directory and add any necessary environment variables:
 
    Code snippet
@@ -66,6 +68,7 @@ Ensure you have the following installed on your development environment:
       DB_CONNECTION_STRING=your_db_string_here
 
 4. Run the Application:
+```bash
    If using Flutter:
    Bash
       flutter run
