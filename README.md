@@ -71,35 +71,25 @@ Example:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/missdott/Dental-System.git
+git clone [https://github.com/missdott/Dental-System.git](https://github.com/missdott/Dental-System.git)
 
 Go into the project folder:
-
 cd Dental-System
+
 2. Install dependencies
-
 For Node.js projects:
-
 npm install
-
 For Flutter projects:
-
 flutter pub get
-3. Environment Setup
 
+33. Environment Setup
 Create a .env file in the project root:
-
 API_BASE_URL=your_api_url_here
 DB_CONNECTION_STRING=your_database_connection_here
-
 Add the required environment variables based on your setup.
 
 4. Run the Application
-
 For Node.js:
-
 npm start
-
 For Flutter:
-
 flutter run
